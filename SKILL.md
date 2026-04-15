@@ -95,7 +95,10 @@ Prompt-to-CLI mapping:
 - if live quote fails, report the real `stopReason`
 - if execute prerequisites are missing, stop before pretending to execute
 - default to a short human-facing summary, not an artifact inventory
-- start proof inspection from `artifacts/hero-runs/latest.json`
+- for public or judge-facing proof, start from
+  `artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json`
+- use `artifacts/hero-runs/latest.json` only for local operator review after a
+  fresh run writes a new raw artifact bundle
 - prefer `summary.md` before raw artifact dumps unless the user explicitly asks
 - surface `swapTxHash` after execute when the artifact actually contains it
 - avoid wallet addresses in default output unless wallet readiness is the

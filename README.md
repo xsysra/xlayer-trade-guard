@@ -120,10 +120,10 @@ A reviewer should be able to verify these claims quickly:
 
 Start from these files:
 
-- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json](/D:/Repos/AI/XLayerHackathon-Round2/submissions/release/xlayer-trade-guard/artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json)
-- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md](/D:/Repos/AI/XLayerHackathon-Round2/submissions/release/xlayer-trade-guard/artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md)
-- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/result-summary.json](/D:/Repos/AI/XLayerHackathon-Round2/submissions/release/xlayer-trade-guard/artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/result-summary.json)
-- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/execute-summary.json](/D:/Repos/AI/XLayerHackathon-Round2/submissions/release/xlayer-trade-guard/artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/execute-summary.json)
+- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json)
+- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md)
+- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/result-summary.json](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/result-summary.json)
+- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/execute-summary.json](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/execute-summary.json)
 
 ## How To Run
 
