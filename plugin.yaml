@@ -1,0 +1,22 @@
+schema_version: 1
+name: xlayer-trade-guard
+version: "1.0.0"
+description: "Installable guarded X Layer swap skill with explicit risk decisions and artifact-backed quote or transaction submission proof"
+author:
+  name: "xsysra"
+  github: "xsysra"
+license: MIT
+category: security
+tags:
+  - xlayer
+  - swap
+  - security
+  - proof
+  - okx
+
+components:
+  skill:
+    dir: "."
+
+api_calls:
+  - "web3.okx.com"

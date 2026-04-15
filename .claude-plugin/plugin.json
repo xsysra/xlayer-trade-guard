@@ -1,0 +1,10 @@
+{
+  "name": "xlayer-trade-guard",
+  "description": "Installable guarded X Layer swap skill with explicit risk decisions and artifact-backed quote or transaction submission proof",
+  "version": "1.0.0",
+  "author": {
+    "name": "xsysra"
+  },
+  "license": "MIT",
+  "keywords": ["xlayer", "swap", "security", "proof", "okx"]
+}

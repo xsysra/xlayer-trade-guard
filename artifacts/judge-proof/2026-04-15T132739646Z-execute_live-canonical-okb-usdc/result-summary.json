@@ -1,0 +1,17 @@
+{
+  "network": "eip155:196",
+  "tokenIn": "okb",
+  "tokenOut": "usdc",
+  "amount": "0.0005",
+  "riskDecision": "warn",
+  "tradeReadiness": "can_execute",
+  "scanStatus": "ok",
+  "proofMode": "execute_live",
+  "quoteAvailable": true,
+  "executionAttempted": true,
+  "executionState": "submitted",
+  "stopReason": null,
+  "riskSummary": [
+    "[L2] Mintable"
+  ]
+}

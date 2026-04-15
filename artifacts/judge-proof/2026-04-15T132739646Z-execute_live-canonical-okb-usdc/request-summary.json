@@ -1,0 +1,9 @@
+{
+  "network": "eip155:196",
+  "tokenIn": "okb",
+  "tokenOut": "usdc",
+  "amount": "0.0005",
+  "amountKind": "readable",
+  "executeLive": true,
+  "runLabel": "canonical-okb-usdc"
+}

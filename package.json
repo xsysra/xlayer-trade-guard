@@ -1,0 +1,25 @@
+{
+  "name": "xlayer-trade-guard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "hero:fallback": "tsx src/cli/run-hero.ts --mode fallback",
+    "hero:quote-live": "tsx src/cli/run-hero.ts --mode quote_live",
+    "hero:execute-live": "tsx src/cli/run-hero.ts --mode execute_live",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.4"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "runId": "2026-04-15T132739646Z-execute_live-canonical-okb-usdc",
+  "proofMode": "execute_live",
+  "timestamp": "2026-04-15T13:27:39.646Z",
+  "network": "eip155:196",
+  "submissionType": "single-agent",
+  "artifactPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc",
+  "requestPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/request-summary.json",
+  "resultPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/result-summary.json",
+  "executePath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/execute-summary.json",
+  "summaryPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md",
+  "proofBoundary": "Transaction submission proof only. Final confirmation is not claimed."
+}
