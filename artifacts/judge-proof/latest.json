@@ -1,14 +1,10 @@
 {
-  "runId": "2026-04-15T132739646Z-execute_live-canonical-okb-usdc",
+  "canonicalRunId": "2026-04-15T132739646Z-execute_live-canonical-okb-usdc",
   "proofMode": "execute_live",
-  "timestamp": "2026-04-15T13:27:39.646Z",
-  "network": "eip155:196",
-  "submissionType": "single-agent",
-  "artifactPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc",
-  "requestPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/request-summary.json",
+  "manifestPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json",
+  "summaryPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md",
   "resultPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/result-summary.json",
   "executePath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/execute-summary.json",
-  "summaryPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md",
   "humanApprovalPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/human-approval-summary.json",
   "explorerProofPath": "artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/explorer-proof.json",
   "proofBoundary": "Transaction submission proof only. Final confirmation is not claimed."

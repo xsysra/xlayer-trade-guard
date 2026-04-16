@@ -87,8 +87,8 @@ Proof boundary for this repo:
 
 - `executionState = submitted` means transaction submission proof
 - this release does not claim final on-chain confirmation
-- judge-facing proof should start from the curated bundle under
-  `artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/`
+- judge-facing proof should start from:
+  `artifacts/judge-proof/latest.json`
 
 ## Official OKX / OnchainOS Skill Usage
 
@@ -118,12 +118,18 @@ A reviewer should be able to verify these claims quickly:
 4. the curated proof bundle preserves the material proof facts without raw
    operator traces
 
-Start from these files:
+A demo video was submitted with the official submission. This public repo
+mirrors the same bounded proof path shown in that recording.
 
-- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json)
-- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md)
-- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/result-summary.json](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/result-summary.json)
-- [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/execute-summary.json](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/execute-summary.json)
+## Public Review Order
+
+Start from these files in order:
+
+1. [artifacts/judge-proof/latest.json](artifacts/judge-proof/latest.json)
+2. [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json)
+3. [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/proof-summary.md)
+4. [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/human-approval.md](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/human-approval.md)
+5. [artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/explorer-proof.md](artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/explorer-proof.md)
 
 ## How To Run
 

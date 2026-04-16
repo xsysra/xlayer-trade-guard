@@ -1,0 +1,16 @@
+{
+  "boundedRequest": {
+    "network": "eip155:196",
+    "tokenIn": "okb",
+    "tokenOut": "usdc",
+    "amount": "0.0005"
+  },
+  "evidenceSource": "submitted-demo-flow-note",
+  "observedFlow": [
+    "The submitted demo flow notes a bounded live quote prompt for okb -> usdc on X Layer.",
+    "The submitted demo flow notes a bounded live execute prompt for the same request after the prior review step.",
+    "The submitted demo flow notes a proof-reading prompt against the resulting artifact bundle."
+  ],
+  "humanApprovalBoundary": "For this public submission, the human-in-the-loop boundary is the manual progression from the quote review step into the execute step for the same bounded request.",
+  "claimBoundary": "This artifact is a bounded submitted-demo-flow note. It is not a frame-by-frame transcript, not proof of a separate approval click, and not final confirmation evidence."
+}

@@ -63,7 +63,7 @@ Use xlayer-trade-guard. Execute on X Layer from <token-in> to <token-out> for <a
 ```
 
 ```text
-Use xlayer-trade-guard. Read the latest artifact bundle from the most recent run and explain whether it is quote proof, transaction submission proof, or final confirmation. Keep it short. No paths or links.
+Use xlayer-trade-guard. Start from artifacts/judge-proof/latest.json and explain whether the current public proof is quote proof, transaction submission proof, or final confirmation. Keep it short. No paths or links.
 ```
 
 ### Current Demo Prompts
@@ -77,7 +77,7 @@ Use xlayer-trade-guard. Execute on X Layer from okb to usdc for 0.0005 only if w
 ```
 
 ```text
-Use xlayer-trade-guard. Read the latest artifact bundle from the most recent run. Do not just summarize. Read the execute artifact and extract the exact proof fields. Show me: swapTxHash, executionState, executionAttempted, stopReason, and whether this counts as real transaction submission proof or final confirmation. Keep it short. No paths or links.
+Use xlayer-trade-guard. Start from artifacts/judge-proof/latest.json. Do not just summarize. Read the public proof bundle and use the result and execute proof artifacts as needed. Show me: swapTxHash, executionState, executionAttempted if present, stopReason, and whether this counts as real transaction submission proof or final confirmation. Keep it short. No paths or links.
 ```
 
 Prompt-to-CLI mapping:
@@ -96,9 +96,13 @@ Prompt-to-CLI mapping:
 - if execute prerequisites are missing, stop before pretending to execute
 - default to a short human-facing summary, not an artifact inventory
 - for public or judge-facing proof, start from
-  `artifacts/judge-proof/2026-04-15T132739646Z-execute_live-canonical-okb-usdc/manifest.json`
+  `artifacts/judge-proof/latest.json`
 - use `artifacts/hero-runs/latest.json` only for local operator review after a
   fresh run writes a new raw artifact bundle
+- use the result proof artifact for `executionState`, `executionAttempted`, and
+  `stopReason`, and the execute proof artifact for `swapTxHash`
+- read `human-approval.*` when the reviewer needs the bounded human-side note
+- read `explorer-proof.*` when the reviewer needs the tx-hash follow-up note
 - prefer `summary.md` before raw artifact dumps unless the user explicitly asks
 - surface `swapTxHash` after execute when the artifact actually contains it
 - avoid wallet addresses in default output unless wallet readiness is the

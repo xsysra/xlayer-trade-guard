@@ -1,0 +1,8 @@
+{
+  "swapTxHash": "0x84c0644df08e308653a5526591666837cd4f321cfe039be71062dee3ba1d2bc9",
+  "network": "eip155:196",
+  "explorerUrl": "https://www.okx.com/web3/explorer/xlayer/tx/0x84c0644df08e308653a5526591666837cd4f321cfe039be71062dee3ba1d2bc9",
+  "verificationCheckedAt": "2026-04-16T15:59:27.0295526Z",
+  "verificationStatus": "unavailable",
+  "proofBoundary": "This note records the public explorer follow-up pointer only. The canonical submission claim remains transaction submission proof unless stronger external verification is added explicitly."
+}
